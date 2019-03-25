@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Brasserie Moulin</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Srisakdi" rel="stylesheet">
+    <!--My Css-->
+    <link rel="stylesheet" href="menu.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md p-3 mb-2 navbar-dark bg-dark">
+    <a href="rmenu.html" class="navbar-brand">
+      <h1 class="logo">Brasserie Moulin</h1>
+    </a>
+    <!-- Collapser -->
+<!--Makes the content outside of the first element, or the h1 in this case, collapse at md screen size-->
+<!-- Any content wrapped in the #navbarSupportedContent div will go into the dropdown button at size -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<!-- makes it aligned, not bullet list -->
+<ul class="navbar-nav mr-auto">
+  <!--makes it a linkable item and spaces it out-->
+  <li class="nav-item active"><a class="nav-link" href="#">Dinner</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+  <!--makes an li into a dropdown menu-->
+  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Catering
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Functions</a>
+          <a class="dropdown-item" href="#">Events</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Pricing</a>
+        </div>
+      </li>
+  <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+</ul>
+</div>
+      </nav>
+<div class="frontpage">
+<div class="jumbotron">
+<h2>Welcome</h2>
+<p>Brasserie Moulin is all you could ask for on a night out. Sophisticated, fun, elegant and classic, we aim for the highest sstandards and attract the best clientel. Enjoy our dinner options, some drinks at the bar, or our new lunch menu and let your worries turn to ecstasy.</p>
+</div>
+
+<h1 class="heading">Dinner Menu</h1>
+<dl id="menu">
+  <dt>Braised Leeks With Mozzarella & Fried Egg</dt>
+  <dd>Seasonal leeks braised in veal stock with nutmeg remoulade over mozzarella cremini salad.</dd>
+  <dd>$19</dd>
+
+  <dt>Lamb Salad with Fregola</dt>
+  <dd>Filet of lamb grilled with za'atar over airy couscous served with ensalat de fregola.</dd>
+  <dd>$20</dd>
+
+  <dt>Pork Jowles and Pickled Vegetable</dt>
+  <dd>Smoked pork jowles served on cracked wheat toast with pickled asparagus and light gravy.</dd>
+  <dd>$21</dd>
+
+  <dt>Scallop Sashimi</dt>
+  <dd>Atlantic scallops served sashimi style with Meyer lemon confit.</dd>
+  <dd>$20</dd>
+
+  <dt>Charcuterie Board: Classico</dt>
+  <dd>Variety of local and imported meats and cheeses:
+  <ul>
+    <li>Spanish Serrano ham</li>
+    <li>Italian prociutto</li>
+    <li>Wild boar shank</li>
+    <li>Manchego, Asiago, Apple Cheddar,<br> and Burratta cheeses</li>
+    <li>cracked wheat loaf</li>
+  </ul>
+  </dd>
+  <dd>$24</dd>
+
+  <dt>Charcuterie Board: Vegano</dt>
+  <dd>Vegetable Medley inspired by the classic charcuterie italiano:
+    <ul>
+      <li>Roasted broccoli in lemon caper foam</li>
+      <li>Scorched avocado</li>
+      <li>Nori and miso steamed tofu</li>
+      <li>Manchego, Asiago, Apple Cheddar,<br> and Burratta vegan cheeses</li>
+      <li>cracked wheat loaf</li>
+    </ul>
+  </dd>
+  <dd>$24</dd>
+
+  <dt>Pappardelle with Sea Urchin</dt>
+  <dd>Homemade pappardelle with roasted cauliflower, black pepper cream sauce and sea urchin</dd>
+  <dd>$23</dd>
+
+  <dt>Island Duck with Mullberry Mustard</dt>
+  <dd>Pan-seared native island duck with spinach smashed potato and mustard almond coating</dd>
+  <dd>$23</dd>
+
+</dl>
+
+<div class="menuWithLables">
+<div class="smallMenuLables">
+  <h1>Drinks Sides Desserts</h1>
+</div>
+
+<div class="smallMenus">
+<dl class="boxEl" id="drinks">
+  <dt>Cocktail</dt>
+  <dd>sweet drink</dd>
+  <dd>$17</dd>
+
+  <dt>Martini</dt>
+  <dd>Shaken, of course</dd>
+  <dd>$13</dd>
+
+  <dt>Caiprinhia</dt>
+  <dd>Sweet mojito</dd>
+  <dd>$12</dd>
+
+  <dt>Ale</dt>
+  <dd>Large selection: <br>ask our staff for details</dd>
+  <dd>$9</dd>
+
+  <dt>Red Wine</dt>
+  <dd>French, Californian, <br>and Chilean varieties</dd>
+  <dd>$10</dd>
+
+  <dt>White Wine</dt>
+  <dd>Spanish, Argentinian, <br>and Italian varieties</dd>
+  <dd>$10</dd>
+
+</dl>
+
+
+
+<dl class="boxEl" id="sides">
+  <dd>All sides are $3</dd>
+  <dt>Mixed Greens</dt>
+  <dt>Frites</dt>
+  <dt>Rissoto</dt>
+  <dt>Mashed Potato</dt>
+  <dt>House Salad</dt>
+</dl>
+
+
+
+<dl class="boxEl" id="dessert">
+  <dt>Italian Cream Cake</dt>
+  <dd>$8</dd>
+  <dt>Fruit and Cheese Plate</dt>
+  <dd>$4</dd>
+  <dt>Bread Pudding with Whiskey Sauce</dt>
+  <dd>$10</dd>
+  <dt>Chocolate Lava Cake</dt>
+  <dd>$10</dd>
+  <dt>White Truffle Pudding</dt>
+  <dd>$7</dd>
+  <dt>Key Lime Pie</dt>
+  <dd>$9</dd>
+  <dt>Orange Cardamom Cake</dt>
+  <dd>$11</dd>
+</dl>
+
+</div>
+</div>
+
+<!-- Lastly I'll add a red box with white lorem ipsum text and a field with a button -->
+<!-- It can be a any comments? sort of box -->
+<div class="commentBox">
+<h3>How was your experience?</h3>
+<p>Tell us how you feel about your experience at Brasserie Moulin. Comment and be entered into a raffle for a $50 Brasserie Moulin gift card.</p>
+<textarea name="name" rows="8" cols="70"></textarea>
+<button type="submit" name="submit">Submit</button>
+</div>
+</div>
+
+    <footer>
+      Brasserie Moulin Inc. 121 State St. Danvers, TA
+      <span id="current-time"></span>
+      <span id="current-date"></span>
+      </footer>
+
+<!-- Scripts -->
+<!-- my script -->
+<script src="rmenu.js" charset="utf-8"></script>
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<!-- Bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
