@@ -1,0 +1,107 @@
+/* Heading */
+nav h1 {
+  font-family: "Great Vibes", cursive;
+}
+
+nav li {
+  font-size: 25px;
+  font-family: "Srisakdi", cursive;
+}
+
+.frontpage {
+  position: absolute;
+  margin-bottom: 32px;
+}
+
+/*Menu styling*/
+.heading {
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+}
+
+#menu {
+  padding: 20px;
+  border: 4px solid rgb(102, 36, 23);
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+#menu dt {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#menu dd {
+  margin: 0 0 1em 0;
+  text-align: center;
+}
+
+#menu dd ul {
+  margin-left: 40%;
+  text-align: left;
+}
+
+/* puts all 3 small menus in one line */
+.menuWithLables h1 {
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+}
+
+#smallMenus {
+  border: 4px solid rgb(102, 36, 23);
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  width: 65%;
+  display: block;
+}
+
+#drinks dt {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#drinks dd {
+  margin: 0 0 1em 0;
+  text-transform: capitalize;
+}
+
+#form {
+  display: flex;
+}
+
+/* comment box */
+.commentBox {
+  background-color: #e9ecef;
+  padding: 2em;
+}
+
+#button {
+  margin-left: 5px;
+}
+
+footer {
+  position: fixed;
+  color: white;
+  margin-top: 10px;
+  padding-left: 5px;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: rgb(102, 36, 23);
+}
+
+#current-date {
+  float: right;
+  padding-right: 5em;
+}
+
+#current-time {
+  float: right;
+  padding-right: 5em;
+}
