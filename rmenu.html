@@ -36,13 +36,14 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md p-3 mb-2 navbar-dark bg-dark">
+    <!-- Collapser
+      Makes the content outside of the first element, or the h1 in this case, collapse at md screen size
+       Any content wrapped in the #navbarSupportedContent div will go into the dropdown button at size
+          makes an li into a dropdown menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a href="rmenu.html" class="navbar-brand">
         <h1 class="logo">Brasserie Moulin</h1>
       </a>
-      <!-- Collapser -->
-      <!--Makes the content outside of the first element, or the h1 in this case, collapse at md screen size-->
-      <!-- Any content wrapped in the #navbarSupportedContent div will go into the dropdown button at size -->
       <button
         class="navbar-toggler"
         type="button"
@@ -56,14 +57,12 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- makes it aligned, not bullet list -->
         <ul class="navbar-nav mr-auto">
-          <!--makes it a linkable item and spaces it out-->
-          <li class="nav-item">
-            <a class="nav-link" href="#">Dinner</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Dinner <span class="sr-only">(current)</span></a
+            >
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-          <!--makes an li into a dropdown menu-->
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -77,23 +76,26 @@
               Catering
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Functions</a>
+              <a class="dropdown-item" href="#">Function</a>
               <a class="dropdown-item" href="#">Events</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Pricing</a>
             </div>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
         </ul>
       </div>
     </nav>
+
     <div class="frontpage">
       <div class="jumbotron">
         <h2>Welcome</h2>
         <p>
           Brasserie Moulin is all you could ask for on a night out.
           Sophisticated, fun, elegant and classic, we aim for the highest
-          sstandards and attract the best clientel. Enjoy our dinner options,
+          standards and attract the best clientel. Enjoy our dinner options,
           some drinks at the bar, or our new lunch menu and let your worries
           turn to ecstasy.
         </p>
